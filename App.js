@@ -31,7 +31,7 @@ const AdjustText: () => Node = (props: AdjustTextProps) => {
   const onTextLayout = (e: NativeSyntheticEvent<TextLayoutEventData>) => {
     const { lines } = e.nativeEvent;
     if (lines.length > numberOfLines) {
-      setCurrentFontSize(currentFontSize - 1);
+      setCurrentFontSize(currentFontSize - 0.5);
     }
   };
 

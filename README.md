@@ -1,5 +1,3 @@
-# react-native-AdjustText-demo
-
 ## How to run the demo
 
 ### Android:
